@@ -4,6 +4,8 @@ import Button from '../../UI/Button/Button';
 import './CheckoutSummary.css';
 
 const checkoutSummary = (props) => {
+    // console.log("[CheckoutSummary} props data");
+    // console.log(props);
     return (
         <div className="CheckoutSummary">
             <h1>We hope it tastes well!</h1>

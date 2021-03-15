@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 class BurgerIngredients extends Component {
 
     render() {
-
+        // console.log("came to burgerIngredients");
         let ingredients = '';
         switch(this.props.type) {
             case ('bread-button') :
